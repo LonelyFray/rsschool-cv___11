@@ -1,49 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML, CSS & Git Basics</title>
-</head>
-<style>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Resume for task</title>
+		<link rel="stylesheet" type="text/css" href="css/typography.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />	
+		<script src="js/jquery-1.4.4.min.js"></script>
+		<script src="js/cufon-yui.js"></script>
+		<script src="js/DilleniaUPC_400.font.js"></script>
+		<script src="js/Orator_Std_400.font.js"></script>
+		<script src="js/jquery.bgpos.js"></script>
+		<script src="js/init.js"></script>
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="container">
+				<div id="bg-container">
+					<div id="top-bg"></div>
+					<div class="main">
+						<div class="ribbon"></div>
+						<div class="content">
+							<div id="front-info">
+								<h1><span class="theme-color">Yura Rogovsky</span></h1>
+								
+								<h2 class="jobtitle">Something about me</h2>
+							</div>
+							<div class="item">	
+								<h2 class="h-border theme-color">About me and my knowledge</h2>
+								
+								<div class="grid_4">
+									<h3 class="title">Skill of English</h3>
+									<div class="grid_4">The level of English is A2. 
+										A couple of times he spoke with the team at conferences on various topics,
+										 he was also a coach-translator of an e-sports team at a tournament. Basically, 
+										 all development was carried out in Visual Studio, there was also a little experience with Android Studio.</div>
+								</div>
+								<div class="grid_4">
+									The main goal is to gain knowledge to further improve your skills. One of the main sides is perseverance.
+									 There was no work experience in this area. I am well versed in computer hardware and can identify a malfunction if 
+									 I have the necessary equipment.
+								</div>
+								<div class="grid_4 last">
+									<h4>There is knowledge of languages such as:</h4>
+									<ul class="list">
+										<li>C ++</li>
+										<li>C #</li>									
+										<li>Java</li>
+										<li>JavaScript</li>
+										<li>HTML</li>
+										<li>CSS</li>
+									</ul>
+								</div>
+								<div class="divider-45"></div>
 
-.blocktext {
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
+							</div> 
+							<div class="item">	
+								<h2 class="h-border theme-color">More about me</h2>
+								
+								<div class="grid_4">
+									<h4 class="description2">At the moment I am studying at the University of GSU. them. F. Skaryna</h4>
+								</div>
+								<div class="grid_8 last">
+									<p>
+										Sample code: private void button1_Click(object sender, EventArgs e) { Object[] texti = new object[1]; 
+											texti[0] = textBox1.Text; Assembly a = Assembly.Load("DLL_1"); Object o = a.CreateInstance("Dll_1"); 
+											Type types = a.GetType("Dll_1"); MethodInfo mi = types.GetMethod("Text_1"); textBox2.Text = mi.Invoke(o, new object[] { texti[0] }).
+											ToString(); }
+									</p>
+								</div>				
+							</div> 
+							<div class="item">	
+								
+								<h2 class="h-border theme-color">Contact Info</h2>
+								<div class="grid_4">
+									<ul class="list">
+										<li class="email">yura.rogovsky2001@gmail.com</li>
+									</ul>
+								</div>
+								<div class="grid_8 last">
 
-IMG.displayed {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-</style>
-<body>       
-    <div class="blocktext">
-        <img class="displayed" src="FRAY_ava.jpg"> 
-    <p>1. Роговский Юрий</p>
-    <p>2. Свзяться можно по почте yura.rogovsky2001@gmail.com</p>
-    <p>3. Главной целью является получения занний для дальнейшего повышения своих навыков. Одной из главных сторон можно назвать усидчивость.
-         Опыта работы в данной сфере не было. Хорошо разбираюсь в компьютерном железе и могу выявить неисправность при наличии необходимого оборудования.</p>         
-    <p>4. Есть знания о таких языках как C++, C#, Pascal, Java, JS, HTML, CSS. В основном велась вся разработка в Visual Studio, так же был небольшой опыт с Android Studio.</p>     
-    <p>5. Пример кода:
-        private void button1_Click(object sender, EventArgs e)
-                {
-                    Object[] texti = new object[1];
-                    texti[0] = textBox1.Text;
-        
-                    Assembly a = Assembly.Load("DLL_1");
-                    Object o = a.CreateInstance("Dll_1");
-                    Type types = a.GetType("Dll_1");
-                    MethodInfo mi = types.GetMethod("Text_1");
-                    textBox2.Text = mi.Invoke(o, new object[] { texti[0] }).ToString();
-                }</p>
-    <p>6.</p>
-    <p>7. В данным момент учусь в университете ГГУ. им. Ф. Скорины</p>
-    <p>8. Уровень английского языка A2-B1. Пару раз выступал с коммандой в конференциях на различные темы, так же был тренером-переводчиком киберспортивной команды на турнире.</p>   
-    </div> 
-</body>
+								</div>
+							</div>
+							<div id="footer">
+								<div class="grid_6" id="footer-text">
+									&copy; 2021. Copyright Yura Rogovsky (@Fray69)
+								</div>
+								<div class="grid_6 last" id="footer-social">
+									
+									<a href="#" class="grid_4" title="RS School" >
+										<span><img src="images/rs_school_js.svg" width="50"  alt="" /></span>
+									</a>
+									<a href="#"  title="YouTube" >
+										<span><img src="images/YouTube.svg" width="50" alt="" /></span>
+									</a>
+									
+								</div>
+							</div> 
+						</div> 
+					</div>
+					<div class="sidebar">
+						<div class="content">
+							<img src="images/FRAY_ava.jpg" width="150" height="150" class="main-photo" alt="Fray :)" />
+							<div class="item">
+								<h3 class="h-border">Skills</h3>
+								<ul class="no-style">
+									<li>
+										<div class="progress">
+											<h4>C ++</h4>
+											<div class="progressBar">
+												<div class="progressValue">
+													<span title="">70%</span>
+												</div>
+											</div>
+										</div>	
+									</li>
+									<li>
+										<div class="progress">
+											<h4>C #</h4>
+											<div class="progressBar">
+												<div class="progressValue">
+													<span title="">60%</span>
+												</div>
+											</div>
+										</div>
+									</li>
+									<li>
+										<div class="progress">
+											<h4>Java</h4>
+											<div class="progressBar">
+												<div class="progressValue">
+													<span title="">30%</span>
+												</div>
+											</div>
+										</div>
+									</li>
+									<li>
+										<div class="progress">
+											<h4>JavaScript</h4>
+											<div class="progressBar">
+												<div class="progressValue">
+													<span title="">45%</span>
+												</div>
+											</div>
+										</div>
+									</li>
+									<li>
+										<div class="progress">
+											<h4>HTML</h4>
+											<div class="progressBar">
+												<div class="progressValue">
+													<span title="">50%</span>
+												</div>
+											</div>
+										</div>
+									</li>
+									<li>
+										<div class="progress">
+											<h4>CSS</h4>
+											<div class="progressBar">
+												<div class="progressValue">
+													<span title="">35%</span>
+												</div>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>		
+						</div> 
+					</div> 
+					
+					<div class="bottom-bg"></div>
+				</div> 	
+			</div> 
+		</div> 
+	</body>
 </html>
