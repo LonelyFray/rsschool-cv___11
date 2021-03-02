@@ -1,0 +1,310 @@
+body {
+  background: #a46dc9;
+
+  margin: 12px;
+}
+
+.theme-color,
+span.theme-color {
+  color: #a46dc9;
+}
+
+a {
+  color: #a46dc9;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+#wrapper {
+  margin: 0 auto;
+  width: 988px;
+}
+
+#container {
+  margin-top: 0px;
+
+  background: url(../images/container_bg_light.png);
+  padding: 6px;
+  width: 976px;
+  float: left;
+  padding-bottom: 24px;
+  padding-top: 24px;
+}
+
+#top-bg {
+  float: left;
+  background: url(../images/layout_bg.png) top left;
+  width: 976px;
+  height: 19px;
+  position: absolute;
+  top: -19px;
+}
+
+#bg-container {
+  float: left;
+  background: url(../images/layout_bg.png) top;
+  position: relative;
+}
+
+.main,
+.sidebar {
+  float: left;
+  width: 698px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  position: relative;
+  margin-bottom: 0px;
+}
+
+.sidebar {
+  width: 278px;
+}
+
+.main .content,
+.sidebar .content {
+  width: 600px;
+  margin: 0 auto;
+  background: #fff url(../images/content_top_bg.png) no-repeat top;
+  padding: 30px;
+}
+
+.sidebar .content {
+  width: 180px;
+  padding: 30px;
+  background: url(../images/sidebar_content_top_bg.png) no-repeat top;
+}
+
+.bottom-bg {
+  float: left;
+  background: url(../images/layout_bg.png) bottom right;
+  width: 976px;
+  height: 19px;
+  position: absolute;
+  bottom: -19px;
+}
+
+.item {
+  margin-bottom: 30px;
+  margin-top: 0px;
+  float: left;
+}
+
+#footer {
+  background: url(../images/h2_border.png) repeat-x top;
+  padding-top: 35px;
+  color: rgb(242, 0, 250);
+  margin-top: 15px;
+  float: left;
+}
+
+#footer-text {
+  height: 35px;
+  line-height: 32px;
+}
+
+#footer-social {
+  text-align: right;
+  height: 32px;
+  overflow: hidden;
+}
+
+#front-info {
+  margin: 0;
+  float: left;
+  padding: 0;
+  width: 100%;
+  height: 173px;
+  margin-top: 50px;
+}
+
+#front-info h1 {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 65px;
+  color: #a46dc9;
+  margin: 0;
+  text-align: center;
+}
+
+h2.h-border {
+  font-size: 38px;
+}
+
+.h-border {
+  background: url(../images/h2_border.png) repeat-x bottom;
+  padding-bottom: 10px;
+  margin: 0;
+  margin-bottom: 30px;
+  margin-top: 15px;
+  padding-bottom: 15px;
+}
+
+h3.h-border {
+  font-size: 30px;
+  padding-bottom: 17px;
+}
+
+h2.jobtitle {
+  font-size: 18px;
+  color: #bbb;
+  margin: 0;
+  text-align: center;
+  background: none;
+}
+
+.grid_6,
+.grid_8,
+.grid_4,
+.grid_3 {
+  float: left;
+}
+
+.grid_6 {
+  margin-right: 20px;
+  width: 285px;
+}
+
+.grid_8 {
+  margin-right: 30px;
+  width: 390px;
+}
+
+.grid_4 {
+  margin-right: 30px;
+  width: 180px;
+}
+
+.grid_3 {
+  margin-right: 20px;
+  width: 135px;
+}
+
+.last {
+  margin-right: 0;
+}
+
+.main-photo {
+  padding: 7px;
+  border: 1px #a46dc9 solid;
+  background: #fff;
+}
+
+.title,
+.description1,
+.description2 {
+  font-family: Tahoma, Geneva, sans-serif;
+  margin: 10px 0;
+}
+
+.title {
+  margin-top: 0px;
+  font-size: 15px;
+  color: #a46dc9;
+}
+
+.description1,
+.description2 {
+  font-size: 12px;
+  color: #777;
+}
+
+.description2 {
+  color: #c0c0c0;
+  font-style: italic;
+}
+
+ul {
+  list-style: square;
+  margin-left: 30px;
+}
+
+ol li {
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+
+ul.checklist li,
+ul.list li,
+ul.arrow li,
+ul.no-bullet li {
+  background: url(../images/bullet.png) no-repeat left 10px;
+  border-bottom: 1px #aaa dotted;
+  padding: 4px 0 5px 20px;
+}
+
+ul.no-bullet li {
+  background: none;
+  padding-left: 0;
+}
+
+ul.align-right li {
+  text-align: right;
+}
+
+ul.list li.email {
+  background: url(../images/email.png) no-repeat left 7px;
+  padding-left: 35px;
+  padding-bottom: 8px;
+  padding-top: 6px;
+}
+
+ul.no-style {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul.no-style li {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.progress {
+  float: left;
+  clear: both;
+  padding: 3px 0px;
+  position: relative;
+  width: 180px;
+  margin-bottom: 15px;
+}
+
+.progress h4 {
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.progressBar {
+  position: relative;
+  top: 5px;
+  background: url(../images/progressbar_bg_8.png) repeat-x right bottom;
+  width: 179px;
+  height: 8px;
+  float: left;
+  text-align: center;
+  font-size: 10px;
+  border-left: 1px #a46dc9 solid;
+}
+
+.progressValue {
+  position: relative;
+  background: url(../images/progressbar_180_8.png) no-repeat right bottom;
+  width: 180px;
+  height: 8px;
+  left: 0px;
+  top: 0px;
+}
+
+.progressValue span {
+  position: relative;
+  top: -5px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 9px;
+  color: #fff;
+  display: none;
+}
